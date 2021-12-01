@@ -26,24 +26,8 @@ tags:
 
 * 즉, Robot 이라는 클래스를 RobotFactory에서 생성함
 
-* RobotFactory 클래스 생성
-public abstract class RobotFactory {
-	abstract Robot createRobot(String name);
-}
-
-* SuperRobotFactory 클래스 생성
-public class SuperRobotFactory extends RobotFactory {
-	@Override
-	Robot createRobot(String name) {
-		switch(name) {
-		case "super" :
-			return new SuperRobot();
-		case "power" :
-			return new PowerRobot();
-		}
-		return null;
-	}
-}
+* RobotFactory / SuperRobotFactory 클래스 생성
+<script src="https://gist.github.com/daylike365/e542d4994f014feb017164ad4df43f71.js"></script>
 
 SuperRobotFactory는 RobotFactory를 상속하고 있기 때문에, 반드시 createRobot을 선언해야함.
 
