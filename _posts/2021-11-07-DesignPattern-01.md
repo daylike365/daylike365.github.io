@@ -36,4 +36,4 @@ name으로 건너오는 값에 따라서 생성되는 Robot이 다르게 설계�
 ## 주의점
 Factory Method가 중첩되기 시작하면 굉장히 복잡해 질 수 있다. 또한 상속을 사용하지만 부모(상위) 클래스를 전혀 확장하지 않는다. 따라서 이 패턴은 extends 관계를 잘못 이용한 것으로 볼 수 있다. extends 관계를 남발하게 되면 프로그램의 엔트로피가 높아질 수 있으므로 Factory Method 패턴의 사용을 주의해야 한다.
 
-<img src="/assets/images/designPattern/FactoryMethod.svg" alt="FactoryMethod"/>
+<img src="/assets/images/designPattern/FactoryMethod_1.png" alt="FactoryMethod"/>
